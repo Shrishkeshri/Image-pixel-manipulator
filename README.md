@@ -48,4 +48,4 @@ mirror = flip(img, "horizontal")         # img[:, ::-1]
 ```
 
 ## Author
-**SHRISH KESHRI** · [LinkedIn](https://linkedin.com/in/YOUR_PROFILE)
+**SHRISH KESHRI** · [LinkedIn](https://www.linkedin.com/in/shrish-keshri-4815ab388/)
