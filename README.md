@@ -4,7 +4,7 @@ Treats an image as a 3D NumPy array (**height × width × RGB**) and creates, cr
 
 ![Overview](outputs/overview.png)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/image-pixel-manipulator/blob/main/image_pixel_manipulator.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Shrishkeshri/image-pixel-manipulator/blob/main/image_pixel_manipulator.ipynb)
 
 ## Features
 - **Create** images with `np.zeros`, `np.ones`, `np.full`, `np.random`, plus gradients and checkerboards
@@ -32,7 +32,7 @@ image-pixel-manipulator/
 
 **Option 2 (locally):**
 ```bash
-git clone https://github.com/YOUR_USERNAME/image-pixel-manipulator.git
+git clone https://github.com/Shrishkeshri/image-pixel-manipulator.git
 cd image-pixel-manipulator
 pip install -r requirements.txt
 jupyter notebook image_pixel_manipulator.ipynb
