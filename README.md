@@ -2,7 +2,7 @@
 
 Treats an image as a 3D NumPy array (**height × width × RGB**) and creates, crops, flips, recolors and filters synthetic images using **only NumPy**. Matplotlib is used just to display results.
 
-![Overview](outputs/overview.png)
+![Overview](overview.png)
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Shrishkeshri/image-pixel-manipulator/blob/main/image_pixel_manipulator.ipynb)
 
@@ -23,8 +23,7 @@ image-pixel-manipulator/
 ├── image_pixel_manipulator.ipynb   # step-by-step notebook with explanations
 ├── pixel_toolkit.py                # reusable NumPy functions
 ├── requirements.txt
-└── outputs/
-    └── overview.png
+└── overview.png
 ```
 
 ## How to run
