@@ -48,16 +48,5 @@ bright = adjust_brightness(img, 1.5)     # safe: float32 -> clip -> uint8
 mirror = flip(img, "horizontal")         # img[:, ::-1]
 ```
 
-## What I learned
-- An image is a `(h, w, 3)` array and slicing `img[r1:r2, c1:c2, ch]` selects any region or channel.
-- `uint8` overflows silently (`200 + 100 = 44`), so calculate in `float32`, clip, then cast back.
-- `[::-1]` flips an image by reading rows/columns backwards.
-- Boolean masks select pixels by condition.
-- `float64` uses 8× the memory of `uint8` for an identical-looking image.
-- Slices are views, so use `.copy()` when you need independence.
-
-## Resume line
-Developed an image manipulation toolkit using 3D NumPy array slicing, dtype casting (uint8/float32) and boolean masks for cropping, flipping, channel extraction and brightness control.
-
 ## Author
-**YOUR NAME** · [LinkedIn](https://linkedin.com/in/YOUR_PROFILE)
+**SHRISH KESHRI** · [LinkedIn](https://linkedin.com/in/YOUR_PROFILE)
